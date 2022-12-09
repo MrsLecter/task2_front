@@ -1,0 +1,12 @@
+$breackpoint_large_15000: 1500;
+
+@media (min-width: $breackpoint_large_15000) {
+  .footer {
+    flex-direction: row;
+    padding: 20px 0px;
+
+    &__siteInfo {
+      text-align: left;
+    }
+  }
+}

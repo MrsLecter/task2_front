@@ -1,0 +1,77 @@
+@import "../../style/variables.scss";
+
+.auth {
+  min-width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__form {
+    width: 350px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__buttons {
+    margin-top: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__errorMessage {
+    margin-top: -10px;
+    width: 350px;
+    height: 18px;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  &__label {
+    font-size: 16px;
+  }
+
+  &__input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    min-width: 350px;
+    font-size: 18px;
+    border: 1px solid $theme_white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: rgba(20, 20, 20, 0.2);
+    color: white;
+  }
+
+  &__inputInvalid {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 350px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: rgba(20, 20, 20, 0.2);
+    color: white;
+  }
+
+  &__loading {
+    padding-top: 25%;
+    width: 350px;
+    height: 245px;
+    text-align: center;
+  }
+}

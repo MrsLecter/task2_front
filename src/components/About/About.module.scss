@@ -1,0 +1,30 @@
+@import "../../style//variables.scss";
+
+.about {
+  width: 30vw;
+  min-width: 450px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  p::first-letter {
+    font-size: 28px;
+    font-weight: 500;
+    color: $theme_dark;
+  }
+
+  &__tokenInfo {
+    padding: 15px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+  }
+}

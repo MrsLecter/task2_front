@@ -1,0 +1,49 @@
+@import "../../style/variables.scss";
+
+.header {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $theme_dark;
+
+  &__logo {
+    margin-left: 30px;
+    width: 250px;
+    font-size: 28px;
+    text-decoration: none;
+    color: $theme_white;
+  }
+
+  &__linkBox {
+    width: 860px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  &__active {
+    color: $theme_white;
+    background-color: $theme_blue;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  &__logout,
+  &__btn {
+    padding: 15px 15px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: $theme_dark;
+    color: $theme_white;
+  }
+
+  &__logout:hover,
+  &__btn:hover {
+    background-color: $theme_blue;
+    cursor: pointer;
+  }
+}

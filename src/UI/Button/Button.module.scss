@@ -1,0 +1,26 @@
+@import "../../style//variables.scss";
+
+.btn {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: $theme_dark;
+  border: 1px solid $theme_white;
+  background-color: $theme_white;
+
+  &:hover {
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 8px 8px -4px rgb(0 0 0 / 0.2);
+  }
+
+  &__forbidden {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: $theme_white;
+    border: 1px solid $theme_white;
+    background-color: $theme_dark;
+  }
+  &__forbidden:hover {
+    cursor: not-allowed;
+  }
+}

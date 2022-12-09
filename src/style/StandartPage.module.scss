@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.standart {
+  width: 100vw;
+  height: 99.9vh;
+  background: url($standart_img);
+  background-size: cover;
+  &__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 95%;
+    background-color: $theme_fog;
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../style//variables.scss";
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $theme_dark;
+  background: url($auth_img);
+  background-size: cover;
+
+  &__form {
+    position: absolute;
+    top: 15%;
+    min-width: 450px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border: 2px solid $theme_white;
+    color: $theme_white;
+    background-color: $theme_dark;
+    opacity: 0.7;
+  }
+}

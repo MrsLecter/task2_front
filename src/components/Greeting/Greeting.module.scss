@@ -1,0 +1,50 @@
+@import "../../style//variables.scss";
+
+.greeting {
+  position: absolute;
+  z-index: 2;
+  padding: 30px 50px;
+  top: 150px;
+  left: 150px;
+  width: 30vw;
+  height: 300px;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: black;
+  background-color: $theme_white;
+  opacity: 0.95;
+
+  &__description {
+    color: black;
+    font-size: 18px;
+  }
+
+  &__title {
+    font-size: 72px;
+    color: $theme_dark;
+    text-shadow: 2px 2px 2px $theme_blue;
+  }
+
+  &__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__link:hover {
+    text-decoration: underline dotted;
+    color: $theme_dark;
+  }
+
+  &__backblock {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 190px;
+    width: 370px;
+    height: 360px;
+    background-color: $theme_dark;
+    opacity: 0.8;
+  }
+}

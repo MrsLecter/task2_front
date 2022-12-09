@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: url($home_img);
+  background-size: cover;
+
+  &__greeting {
+    width: 40vw;
+    height: 50vh;
+    margin-top: 100px;
+    font-weight: 600;
+    color: black;
+    font-size: 32px;
+    background-color: #113617;
+    border: 1px solid black;
+  }
+}
